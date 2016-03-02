@@ -1,0 +1,26 @@
+#Source file type can be explicitly set at the end of each line
+#Supported file types: verilog vhdl systemverilog ip constraint dsp script
+#If source file type is not set, the source file type will be determined
+#by the file extension
+#All unsupported file types will not be read into Vivado. They will be
+#put under version control.
+
+../src/vhdl/heartbeat_gen.vhd  vhdl
+../src/verilog/cplx_mult.v
+../src/verilog/spectrum_top.v
+../src/constrs/spectrum_top_timing.xdc 
+../src/constrs/spectrum_top_physical.xdc
+../sim/spectrum_top_tb.v
+../sim/spectrum_top_tb_behav.wcfg
+
+../../vcs_ip_location/dds_compiler_0/dds_compiler_0.xci
+../../vcs_ip_location/fir_compiler_0/fir_compiler_0.xci
+../../vcs_ip_location/xfft_0/xfft_0.xci
+../../vcs_ip_location/vio_i256_o256/vio_i256_o256.xci
+../../vcs_ip_location/ila_0/ila_0.xci
+
+../script/spectrum_vv_prj_flow.tcl
+../script/file_list.txt
+../debug/hw_ila_data_1.wcfg
+
+
