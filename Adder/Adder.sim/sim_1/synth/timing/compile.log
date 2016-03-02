@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGAprojects/Adder/Adder.sim/sim_1/synth/timing/add_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGAprojects/Adder/Adder.srcs/sources_1/new/add.v" into library xil_defaultlib
+ERROR: [VRFC 10-1342] root scope declaration is not allowed in verilog 95/2K mode [D:/FPGAprojects/Adder/Adder.srcs/sources_1/new/add.v:22]
+INFO: [VRFC 10-311] analyzing module add
+ERROR: [VRFC 10-1040] module add ignored due to previous errors [D:/FPGAprojects/Adder/Adder.srcs/sources_1/new/add.v:23]
