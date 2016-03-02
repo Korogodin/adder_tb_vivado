@@ -37,7 +37,7 @@ module add(
     reg [dim-1+1:0] fullsum;
     
     always @(posedge clk) begin
-        fullsum <= $signed(a)*$signed(a) + $signed(b);
+        fullsum <= $signed(a) + $signed(b);
     end
     
     assign sum = fullsum[dim-1:0];
