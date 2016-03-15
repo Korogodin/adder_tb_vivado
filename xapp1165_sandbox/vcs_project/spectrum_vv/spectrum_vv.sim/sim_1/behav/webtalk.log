@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Wed Mar  2 17:32:32 2016
+# Process ID: 4319
+# Current directory: /media/Data/Work/adder_tb_vivado/xapp/vcs_project/spectrum_vv/spectrum_vv.sim/sim_1/behav
+# Command line: wbtcv -mode batch -source /media/Data/Work/adder_tb_vivado/xapp/vcs_project/spectrum_vv/spectrum_vv.sim/sim_1/behav/xsim.dir/spectrum_top_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /media/Data/Work/adder_tb_vivado/xapp/vcs_project/spectrum_vv/spectrum_vv.sim/sim_1/behav/webtalk.log
+# Journal file: /media/Data/Work/adder_tb_vivado/xapp/vcs_project/spectrum_vv/spectrum_vv.sim/sim_1/behav/webtalk.jou
+#-----------------------------------------------------------
+source /media/Data/Work/adder_tb_vivado/xapp/vcs_project/spectrum_vv/spectrum_vv.sim/sim_1/behav/xsim.dir/spectrum_top_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Mar  2 17:32:32 2016...

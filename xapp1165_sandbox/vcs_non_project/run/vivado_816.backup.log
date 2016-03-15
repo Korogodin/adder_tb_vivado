@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Mar  2 16:17:59 2016
+# Process ID: 773
+# Log file: /media/Data/Work/adder_tb_vivado/xapp/vcs_non_project/run/vivado.log
+# Journal file: /media/Data/Work/adder_tb_vivado/xapp/vcs_non_project/run/vivado.jou
+#-----------------------------------------------------------
+source ../script/vivado_non_project.tcl -notrace
+    IfnOpt=../script/file_list.txt TopOpt=spectrum_top PartOpt=xc7k325tffg900-2
+WARNING: Unsupported file extension .wcfg for ../debug/hw_ila_data_1.wcfg
+WARNING: Unsupported source type misc. ../debug/hw_ila_data_1.wcfg will be version controlled.
+WARNING: Unsupported file extension .txt for ../script/file_list.txt
+WARNING: Unsupported source type misc. ../script/file_list.txt will be version controlled.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2015.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'dds_compiler_0' is locked:
+* IP definition 'DDS Compiler (6.0)' for IP 'dds_compiler_0' has a different revision in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc7vx485tffg1157-1' used to customize the IP 'dds_compiler_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'fir_compiler_0' is locked:
+* IP definition 'FIR Compiler (7.1)' for IP 'fir_compiler_0' has a newer minor version in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc7vx485tffg1157-1' used to customize the IP 'fir_compiler_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'xfft_0' is locked:
+* IP definition 'Fast Fourier Transform (9.0)' for IP 'xfft_0' has a different revision in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc7vx485tffg1157-1' used to customize the IP 'xfft_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'vio_i256_o256' is locked:
+* IP definition 'VIO (Virtual Input/Output) (2.0)' for IP 'vio_i256_o256' has a newer major version in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc7vx485tffg1157-1' used to customize the IP 'vio_i256_o256' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'ila_0' is locked:
+* IP definition 'ILA (Integrated Logic Analyzer) (2.1)' for IP 'ila_0' has a newer major version in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc7vx485tffg1157-1' used to customize the IP 'ila_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+Command: synth_design -top spectrum_top -part xc7k325tffg900-2
+3 Infos, 5 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+ERROR: [Common 17-162] Invalid option value specified for '-part'.
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  2 16:18:04 2016...

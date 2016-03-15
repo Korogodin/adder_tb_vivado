@@ -1,0 +1,23 @@
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2015.3/bin/unwrapped/lnx64.o/xelab -wto 709719058413425ba081fea3ea4216a8 --debug typical --relax --mt 8 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot adder_testbench_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 xil_defaultlib.adder_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "adder_testbench_time_synth.sdf", for root module "adder_testbench/adder".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "adder_testbench_time_synth.sdf", for root module "adder_testbench/adder".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module simprims_ver.sffsrce_fdre
+Compiling module simprims_ver.FDRE
+Compiling module simprims_ver.CARRY4
+Compiling module simprims_ver.OBUF
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.adder_testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot adder_testbench_time_synth

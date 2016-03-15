@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/Data/Work/adder_tb_vivado/xapp/vcs_project/src/verilog/spectrum_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spectrum_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/Data/Work/adder_tb_vivado/xapp/vcs_project/spectrum_vv/spectrum_vv.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/media/Data/Work/adder_tb_vivado/xapp/vcs_project/src/vhdl/heartbeat_gen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity heartbeat_gen

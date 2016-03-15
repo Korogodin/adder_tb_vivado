@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "adder_testbench_time_synth.v"
+verilog xil_defaultlib  "../../../../Adder.srcs/sim_1/new/adder_testbench.v"
+
+# Do not sort compile order
+nosort

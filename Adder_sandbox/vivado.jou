@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Thu Mar  3 16:26:38 2016
+# Process ID: 25207
+# Current directory: /media/Data/Work/adder_tb_vivado/Work2
+# Command line: vivado -source script/adder_prj.tcl -notrace
+# Log file: /media/Data/Work/adder_tb_vivado/Work2/vivado.log
+# Journal file: /media/Data/Work/adder_tb_vivado/Work2/vivado.jou
+#-----------------------------------------------------------
+start_gui
+source script/adder_prj.tcl -notrace
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+set_property STEPS.WRITE_BITSTREAM.ARGS.MASK_FILE true [get_runs impl_1]
+write_project_tcl -no_copy_sources {/media/Data/Work/adder_tb_vivado/Work2/script/adder_prj2.tcl}
+close_project
+open_project /media/Data/Work/adder_tb_vivado/RegDesign/readWriteToReg/readWriteToReg.xpr
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_run impl_1
+open_bd_design {/media/Data/Work/adder_tb_vivado/RegDesign/readWriteToReg/readWriteToReg.srcs/sources_1/bd/design_1/design_1.bd}
+report_ip_status -name ip_status 
+write_project_tcl -no_copy_sources {/media/Data/Work/adder_tb_vivado/RegDesign/createPrj.tcl}
+write_project_tcl -no_copy_sources -force {/media/Data/Work/adder_tb_vivado/RegDesign/createPrj.tcl}
+write_bd_tcl /media/Data/Work/adder_tb_vivado/RegDesign/design_1.tcl
+write_project_tcl -no_copy_sources -force {/media/Data/Work/adder_tb_vivado/RegDesign/createPrj.tcl}

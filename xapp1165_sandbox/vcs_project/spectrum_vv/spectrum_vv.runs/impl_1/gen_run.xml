@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xa7a15tcpg236-2I" LaunchTime="1456928313">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="spectrum_top.vdi"/>
+  <File Type="BG-DRC" Name="spectrum_top.drc"/>
+  <File Type="BG-BGN" Name="spectrum_top.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="spectrum_top.sysdef"/>
+  <File Type="BITSTR-MMI" Name="spectrum_top.mmi"/>
+  <File Type="BITSTR-BMM" Name="spectrum_top_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="spectrum_top.nky"/>
+  <File Type="BITSTR-RBT" Name="spectrum_top.rbt"/>
+  <File Type="BITSTR-MSK" Name="spectrum_top.msk"/>
+  <File Type="BG-BIN" Name="spectrum_top.bin"/>
+  <File Type="BG-BIT" Name="spectrum_top.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="spectrum_top_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="spectrum_top_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="spectrum_top_postroute_physopt.dcp"/>
+  <File Type="ROUTE-CLK" Name="spectrum_top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="spectrum_top_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="spectrum_top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="spectrum_top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="spectrum_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="spectrum_top_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="spectrum_top_route_status.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="spectrum_top_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="spectrum_top_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="spectrum_top_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="spectrum_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DCP" Name="spectrum_top_routed.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="spectrum_top_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="spectrum_top_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="spectrum_top_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="spectrum_top_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="spectrum_top_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="spectrum_top_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="spectrum_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="spectrum_top_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="spectrum_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="spectrum_top_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="spectrum_top_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="spectrum_top_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="spectrum_top_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="spectrum_top_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="spectrum_top_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="spectrum_top_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="spectrum_top_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="spectrum_top_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="spectrum_top.hwdef"/>
+  <File Type="OPT-DRC" Name="spectrum_top_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="spectrum_top_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="spectrum_top_timing_summary_init.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="spectrum_top_timing_summary_postroute_physopted.pb"/>
+  <File Type="PA-TCL" Name="spectrum_top.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../src/vhdl/heartbeat_gen.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/verilog/spectrum_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../vcs_ip_location/dds_compiler_0/dds_compiler_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../vcs_ip_location/fir_compiler_0/fir_compiler_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../vcs_ip_location/ila_0/ila_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../vcs_ip_location/vio_i256_o256/vio_i256_o256.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../vcs_ip_location/xfft_0/xfft_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/verilog/cplx_mult.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../vcs_ip_location/coeffs/fir_p2_1db_s3_50db.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="spectrum_top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015">
+      <Desc>Vivado Implementation Defaults</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,104 @@
+#-----------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Wed Mar  2 17:09:33 2016
+# Process ID: 1846
+# Current directory: /media/Data/Work/adder_tb_vivado/xapp/vcs_project
+# Command line: vivado -source script/spectrum_vv_prj_flow.tcl -notrace
+# Log file: /media/Data/Work/adder_tb_vivado/xapp/vcs_project/vivado.log
+# Journal file: /media/Data/Work/adder_tb_vivado/xapp/vcs_project/vivado.jou
+#-----------------------------------------------------------
+start_gui
+source script/spectrum_vv_prj_flow.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2015.3/data/ip'.
+WARNING: [Common 17-599] Property 'board' is deprecated for object type 'project'. Use 'board_part'.
+INFO: [Board 49-70] Updating board vlnv to compatible board_part vlnv
+WARNING: [Project 1-153] The current project part 'xc7vx485tffg1157-1' does not match with the 'XILINX.COM:KINTEX7:KC705:1.0' board part settings. The project part will be reset to 'XILINX.COM:KINTEX7:KC705:1.0' board part.
+INFO: [Project 1-152] Project part set to kintex7 (xc7k325tffg900-2)
+WARNING: [IP_Flow 19-2162] IP 'dds_compiler_0' is locked:
+* IP definition 'DDS Compiler (6.0)' for IP 'dds_compiler_0' has a different revision in the IP Catalog.
+* Current project part 'xc7k325tffg900-2' and the part 'xc7vx485tffg1157-1' used to customize the IP 'dds_compiler_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'fir_compiler_0' is locked:
+* IP definition 'FIR Compiler (7.1)' for IP 'fir_compiler_0' has a newer minor version in the IP Catalog.
+* Current project part 'xc7k325tffg900-2' and the part 'xc7vx485tffg1157-1' used to customize the IP 'fir_compiler_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'ila_0' is locked:
+* IP definition 'ILA (Integrated Logic Analyzer) (2.1)' for IP 'ila_0' has a newer major version in the IP Catalog.
+* Current project part 'xc7k325tffg900-2' and the part 'xc7vx485tffg1157-1' used to customize the IP 'ila_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'vio_i256_o256' is locked:
+* IP definition 'VIO (Virtual Input/Output) (2.0)' for IP 'vio_i256_o256' has a newer major version in the IP Catalog.
+* Current project part 'xc7k325tffg900-2' and the part 'xc7vx485tffg1157-1' used to customize the IP 'vio_i256_o256' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'xfft_0' is locked:
+* IP definition 'Fast Fourier Transform (9.0)' for IP 'xfft_0' has a different revision in the IP Catalog.
+* Current project part 'xc7k325tffg900-2' and the part 'xc7vx485tffg1157-1' used to customize the IP 'xfft_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+ERROR: [Common 17-161] Invalid option value 'sources_1' specified for 'of_objects'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+generate_target Simulation [get_files /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/dds_compiler_0/dds_compiler_0.xci]
+CRITICAL WARNING: [filemgmt 20-1365] Unable to generate target(s) for the following file is locked: /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/dds_compiler_0/dds_compiler_0.xci
+Locked reason: 
+* IP definition 'DDS Compiler (6.0)' for IP 'dds_compiler_0' has a different revision in the IP Catalog.
+* Current project part 'xc7k325tffg900-2' and the part 'xc7vx485tffg1157-1' used to customize the IP 'dds_compiler_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+export_ip_user_files -of_objects [get_files /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/dds_compiler_0/dds_compiler_0.xci] -no_script -force -quiet
+set_property simulator_language Verilog [current_project]
+set_property simulator_language Mixed [current_project]
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar  2 17:12:37 2016] Launched synth_1...
+Run output will be captured here: /media/Data/Work/adder_tb_vivado/xapp/vcs_project/spectrum_vv/spectrum_vv.runs/synth_1/runme.log
+[Wed Mar  2 17:12:37 2016] Launched impl_1...
+Run output will be captured here: /media/Data/Work/adder_tb_vivado/xapp/vcs_project/spectrum_vv/spectrum_vv.runs/impl_1/runme.log
+set_property board_part xilinx.com:zc702:part0:1.2 [current_project]
+WARNING: [Project 1-153] The current project part 'xc7k325tffg900-2' does not match with the 'XILINX.COM:ZC702:PART0:1.2' board part settings. The project part will be reset to 'XILINX.COM:ZC702:PART0:1.2' board part.
+INFO: [Project 1-152] Project part set to zynq (xc7z020clg484-1)
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar  2 17:15:40 2016] Launched synth_1...
+Run output will be captured here: /media/Data/Work/adder_tb_vivado/xapp/vcs_project/spectrum_vv/spectrum_vv.runs/synth_1/runme.log
+[Wed Mar  2 17:15:40 2016] Launched impl_1...
+Run output will be captured here: /media/Data/Work/adder_tb_vivado/xapp/vcs_project/spectrum_vv/spectrum_vv.runs/impl_1/runme.log
+set_property part xa7a15tcpg236-2I [current_project]
+INFO: [Project 1-154] The current project board 'xilinx.com:zc702:part0:1.2' is reset to empty (None). Use 'Project Settings' part selector (GUI) or issue set_property Tcl Command to set the board again.
+WARNING: [IP_Flow 19-2162] IP 'dds_compiler_0' is locked:
+* IP definition 'DDS Compiler (6.0)' for IP 'dds_compiler_0' has a different revision in the IP Catalog.
+* Current project part 'xa7a15tcpg236-2I' and the part 'xc7vx485tffg1157-1' used to customize the IP 'dds_compiler_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'fir_compiler_0' is locked:
+* IP definition 'FIR Compiler (7.1)' for IP 'fir_compiler_0' has a newer minor version in the IP Catalog.
+* Current project part 'xa7a15tcpg236-2I' and the part 'xc7vx485tffg1157-1' used to customize the IP 'fir_compiler_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'ila_0' is locked:
+* IP definition 'ILA (Integrated Logic Analyzer) (2.1)' for IP 'ila_0' has a newer major version in the IP Catalog.
+* Current project part 'xa7a15tcpg236-2I' and the part 'xc7vx485tffg1157-1' used to customize the IP 'ila_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'vio_i256_o256' is locked:
+* IP definition 'VIO (Virtual Input/Output) (2.0)' for IP 'vio_i256_o256' has a newer major version in the IP Catalog.
+* Current project part 'xa7a15tcpg236-2I' and the part 'xc7vx485tffg1157-1' used to customize the IP 'vio_i256_o256' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'xfft_0' is locked:
+* IP definition 'Fast Fourier Transform (9.0)' for IP 'xfft_0' has a different revision in the IP Catalog.
+* Current project part 'xa7a15tcpg236-2I' and the part 'xc7vx485tffg1157-1' used to customize the IP 'xfft_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar  2 17:17:16 2016] Launched synth_1...
+Run output will be captured here: /media/Data/Work/adder_tb_vivado/xapp/vcs_project/spectrum_vv/spectrum_vv.runs/synth_1/runme.log
+[Wed Mar  2 17:17:16 2016] Launched impl_1...
+Run output will be captured here: /media/Data/Work/adder_tb_vivado/xapp/vcs_project/spectrum_vv/spectrum_vv.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar  2 17:18:33 2016] Launched synth_1...
+Run output will be captured here: /media/Data/Work/adder_tb_vivado/xapp/vcs_project/spectrum_vv/spectrum_vv.runs/synth_1/runme.log
+[Wed Mar  2 17:18:33 2016] Launched impl_1...
+Run output will be captured here: /media/Data/Work/adder_tb_vivado/xapp/vcs_project/spectrum_vv/spectrum_vv.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  2 17:22:06 2016...

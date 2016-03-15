@@ -1,4 +1,7 @@
-Running: xsim.dir/adder_testbench_behav/xsimk -simmode gui -wdb adder_testbench_behav.wdb -simrunnum 0 -socket 57475
+Running: xsim.dir/adder_testbench_behav/xsimk -simmode gui -wdb adder_testbench_behav.wdb -simrunnum 0 -socket 51754
 Design successfully loaded
 Design Loading Memory Usage: 118120 KB (Peak: 118140 KB)
 Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 261492 KB (Peak: 327028 KB)
+Simulation CPU Usage: 20 ms

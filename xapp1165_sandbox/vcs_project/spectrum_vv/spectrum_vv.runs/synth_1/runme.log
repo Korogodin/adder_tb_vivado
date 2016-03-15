@@ -1,0 +1,384 @@
+
+*** Running vivado
+    with args -log spectrum_top.vds -m64 -mode batch -messageDb vivado.pb -notrace -source spectrum_top.tcl
+
+
+****** Vivado v2015.3 (64-bit)
+  **** SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+  **** IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source spectrum_top.tcl -notrace
+Command: synth_design -top spectrum_top -part xa7a15tcpg236-2I
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xa7a15t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xa7a15t'
+INFO: [Common 17-1223] The version limit for your license is '2016.02' and will expire in -2 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2460 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1042.879 ; gain = 180.652 ; free physical = 209 ; free virtual = 9149
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'spectrum_top' [/media/Data/Work/adder_tb_vivado/xapp/vcs_project/src/verilog/spectrum_top.v:44]
+	Parameter C_SIM bound to: 0 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_project/src/verilog/spectrum_top.v:59]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_project/src/verilog/spectrum_top.v:60]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_project/src/verilog/spectrum_top.v:61]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_project/src/verilog/spectrum_top.v:62]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_project/src/verilog/spectrum_top.v:65]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_project/src/verilog/spectrum_top.v:66]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_project/src/verilog/spectrum_top.v:73]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_project/src/verilog/spectrum_top.v:76]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_project/src/verilog/spectrum_top.v:82]
+INFO: [Synth 8-638] synthesizing module 'IBUFDS' [/opt/Xilinx/Vivado/2015.3/scripts/rt/data/unisim_comp.v:14191]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUFDS' (1#1) [/opt/Xilinx/Vivado/2015.3/scripts/rt/data/unisim_comp.v:14191]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [/opt/Xilinx/Vivado/2015.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (2#1) [/opt/Xilinx/Vivado/2015.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_gen' [/media/Data/Work/adder_tb_vivado/xapp/vcs_project/src/vhdl/heartbeat_gen.vhd:17]
+	Parameter CLK_CNT_MAX bound to: 268435456 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_gen' (3#1) [/media/Data/Work/adder_tb_vivado/xapp/vcs_project/src/vhdl/heartbeat_gen.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'spectrum_top' (4#1) [/media/Data/Work/adder_tb_vivado/xapp/vcs_project/src/verilog/spectrum_top.v:44]
+WARNING: [Synth 8-3917] design spectrum_top has port leds_o[7] driven by constant 0
+WARNING: [Synth 8-3917] design spectrum_top has port leds_o[6] driven by constant 0
+WARNING: [Synth 8-3917] design spectrum_top has port leds_o[5] driven by constant 0
+WARNING: [Synth 8-3917] design spectrum_top has port leds_o[4] driven by constant 0
+WARNING: [Synth 8-3917] design spectrum_top has port leds_o[3] driven by constant 0
+WARNING: [Synth 8-3917] design spectrum_top has port leds_o[2] driven by constant 0
+WARNING: [Synth 8-3917] design spectrum_top has port leds_o[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1083.262 ; gain = 221.035 ; free physical = 167 ; free virtual = 9108
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1083.262 ; gain = 221.035 ; free physical = 167 ; free virtual = 9108
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xa7a15tcpg236-2I
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1091.262 ; gain = 229.035 ; free physical = 167 ; free virtual = 9108
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xa7a15tcpg236-2I
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1099.270 ; gain = 237.043 ; free physical = 158 ; free virtual = 9100
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module heartbeat_gen 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 45 (col length:60)
+BRAMs: 50 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1175.281 ; gain = 313.055 ; free physical = 193 ; free virtual = 9046
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design spectrum_top has port leds_o[7] driven by constant 0
+WARNING: [Synth 8-3917] design spectrum_top has port leds_o[6] driven by constant 0
+WARNING: [Synth 8-3917] design spectrum_top has port leds_o[5] driven by constant 0
+WARNING: [Synth 8-3917] design spectrum_top has port leds_o[4] driven by constant 0
+WARNING: [Synth 8-3917] design spectrum_top has port leds_o[3] driven by constant 0
+WARNING: [Synth 8-3917] design spectrum_top has port leds_o[2] driven by constant 0
+WARNING: [Synth 8-3917] design spectrum_top has port leds_o[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1183.281 ; gain = 321.055 ; free physical = 192 ; free virtual = 9041
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1183.281 ; gain = 321.055 ; free physical = 192 ; free virtual = 9041
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1199.305 ; gain = 337.078 ; free physical = 178 ; free virtual = 9023
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1199.305 ; gain = 337.078 ; free physical = 178 ; free virtual = 9023
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1199.305 ; gain = 337.078 ; free physical = 178 ; free virtual = 9023
+---------------------------------------------------------------------------------
+Finished Parallel Timing Optimization  : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1199.305 ; gain = 337.078 ; free physical = 178 ; free virtual = 9023
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1199.305 ; gain = 337.078 ; free physical = 178 ; free virtual = 9023
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1199.305 ; gain = 337.078 ; free physical = 177 ; free virtual = 9022
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin dds_data_tvalid_inferred:in0 to constant 0
+WARNING: [Synth 8-3295] tying undriven pin dds_data_tdata_inferred:in0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin dds_data_tdata_inferred:in0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin dds_data_tdata_inferred:in0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin dds_data_tdata_inferred:in0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin dds_data_tdata_inferred:in0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin dds_data_tdata_inferred:in0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin dds_data_tdata_inferred:in0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin dds_data_tdata_inferred:in0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin dds_data_tdata_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin dds_data_tdata_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin dds_data_tdata_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin dds_data_tdata_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin dds_data_tdata_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin dds_data_tdata_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin dds_data_tdata_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin dds_data_tdata_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fir_m_axis_data_tvalid_inferred:in0 to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fir_m_axis_data_tdata_inferred:in0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fir_m_axis_data_tdata_inferred:in0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fir_m_axis_data_tdata_inferred:in0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fir_m_axis_data_tdata_inferred:in0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fir_m_axis_data_tdata_inferred:in0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fir_m_axis_data_tdata_inferred:in0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fir_m_axis_data_tdata_inferred:in0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fir_m_axis_data_tdata_inferred:in0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fir_m_axis_data_tdata_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fir_m_axis_data_tdata_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fir_m_axis_data_tdata_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fir_m_axis_data_tdata_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fir_m_axis_data_tdata_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fir_m_axis_data_tdata_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fir_m_axis_data_tdata_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fir_m_axis_data_tdata_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_s_axis_data_tready_inferred:in0 to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_s_axis_data_tlast_inferred:in0 to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_re_inferred:in0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_re_inferred:in0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_re_inferred:in0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_re_inferred:in0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_re_inferred:in0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_re_inferred:in0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_re_inferred:in0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_re_inferred:in0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_re_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_re_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_re_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_re_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_re_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_re_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_re_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_re_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_im_inferred:in0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_im_inferred:in0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_im_inferred:in0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_im_inferred:in0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_im_inferred:in0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_im_inferred:in0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_im_inferred:in0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_im_inferred:in0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_im_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_im_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_im_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_im_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_im_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_im_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_im_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_im_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[32] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[31] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[30] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[29] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[28] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[27] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[26] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[25] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[24] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[23] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[22] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[21] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[20] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[19] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[18] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[17] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[16] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin fft_xk_mag_sq_inferred:in0[1] to constant 0
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1199.305 ; gain = 337.078 ; free physical = 177 ; free virtual = 9022
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1199.305 ; gain = 337.078 ; free physical = 177 ; free virtual = 9022
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1199.305 ; gain = 337.078 ; free physical = 177 ; free virtual = 9022
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1199.305 ; gain = 337.078 ; free physical = 177 ; free virtual = 9022
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1199.305 ; gain = 337.078 ; free physical = 177 ; free virtual = 9022
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1199.305 ; gain = 337.078 ; free physical = 177 ; free virtual = 9022
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |   131|
+|4     |LUT4   |     6|
+|5     |LUT5   |     4|
+|6     |LUT6   |     1|
+|7     |FDCE   |    33|
+|8     |IBUF   |     1|
+|9     |IBUFDS |     1|
+|10    |OBUF   |     8|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------+--------------+------+
+|      |Instance        |Module        |Cells |
++------+----------------+--------------+------+
+|1     |top             |              |   194|
+|2     |  hb_gen_clk200 |heartbeat_gen |    82|
++------+----------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1199.305 ; gain = 337.078 ; free physical = 177 ; free virtual = 9022
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 115 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1199.305 ; gain = 219.426 ; free physical = 176 ; free virtual = 9021
+Synthesis Optimization Complete : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1199.305 ; gain = 337.078 ; free physical = 176 ; free virtual = 9021
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+28 Infos, 114 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1258.297 ; gain = 324.848 ; free physical = 166 ; free virtual = 8957
+report_utilization: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.06 . Memory (MB): peak = 1290.316 ; gain = 0.000 ; free physical = 211 ; free virtual = 8957
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  2 17:18:43 2016...

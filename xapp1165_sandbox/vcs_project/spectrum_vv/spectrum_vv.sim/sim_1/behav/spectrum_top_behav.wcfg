@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="spectrum_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="spectrum_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="166666666fs"></ZoomStartTime>
+      <ZoomEndTime time="1166666667fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="27" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/spectrum_top/sys_rst_i">
+      <obj_property name="ElementShortName">sys_rst_i</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_i</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/spectrum_top/sys_clk_p_i">
+      <obj_property name="ElementShortName">sys_clk_p_i</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_p_i</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/spectrum_top/sys_clk_n_i">
+      <obj_property name="ElementShortName">sys_clk_n_i</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_n_i</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/spectrum_top/leds_o">
+      <obj_property name="ElementShortName">leds_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">leds_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/spectrum_top/sys_clk">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/spectrum_top/clk200">
+      <obj_property name="ElementShortName">clk200</obj_property>
+      <obj_property name="ObjectShortName">clk200</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/spectrum_top/sys_rst">
+      <obj_property name="ElementShortName">sys_rst</obj_property>
+      <obj_property name="ObjectShortName">sys_rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/spectrum_top/dds_data_tvalid">
+      <obj_property name="ElementShortName">dds_data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">dds_data_tvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/spectrum_top/dds_data_tdata">
+      <obj_property name="ElementShortName">dds_data_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dds_data_tdata[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/spectrum_top/fir_m_axis_data_tvalid">
+      <obj_property name="ElementShortName">fir_m_axis_data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">fir_m_axis_data_tvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/spectrum_top/fir_m_axis_data_tdata">
+      <obj_property name="ElementShortName">fir_m_axis_data_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fir_m_axis_data_tdata[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/spectrum_top/fft_s_axis_data_tdata">
+      <obj_property name="ElementShortName">fft_s_axis_data_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fft_s_axis_data_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/spectrum_top/fft_s_axis_data_tready">
+      <obj_property name="ElementShortName">fft_s_axis_data_tready</obj_property>
+      <obj_property name="ObjectShortName">fft_s_axis_data_tready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/spectrum_top/fft_s_axis_data_tlast">
+      <obj_property name="ElementShortName">fft_s_axis_data_tlast</obj_property>
+      <obj_property name="ObjectShortName">fft_s_axis_data_tlast</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/spectrum_top/fft_m_axis_data_tdata">
+      <obj_property name="ElementShortName">fft_m_axis_data_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">fft_m_axis_data_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/spectrum_top/fft_m_axis_data_tuser">
+      <obj_property name="ElementShortName">fft_m_axis_data_tuser[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fft_m_axis_data_tuser[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/spectrum_top/fft_m_axis_data_tvalid">
+      <obj_property name="ElementShortName">fft_m_axis_data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">fft_m_axis_data_tvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/spectrum_top/fft_m_axis_data_tlast">
+      <obj_property name="ElementShortName">fft_m_axis_data_tlast</obj_property>
+      <obj_property name="ObjectShortName">fft_m_axis_data_tlast</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/spectrum_top/fft_xk_re">
+      <obj_property name="ElementShortName">fft_xk_re[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fft_xk_re[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/spectrum_top/fft_xk_im">
+      <obj_property name="ElementShortName">fft_xk_im[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fft_xk_im[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/spectrum_top/fft_xk_mag_sq">
+      <obj_property name="ElementShortName">fft_xk_mag_sq[32:0]</obj_property>
+      <obj_property name="ObjectShortName">fft_xk_mag_sq[32:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/spectrum_top/probe_in0">
+      <obj_property name="ElementShortName">probe_in0[255:0]</obj_property>
+      <obj_property name="ObjectShortName">probe_in0[255:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/spectrum_top/probe_out0">
+      <obj_property name="ElementShortName">probe_out0[255:0]</obj_property>
+      <obj_property name="ObjectShortName">probe_out0[255:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/spectrum_top/hb_clk200">
+      <obj_property name="ElementShortName">hb_clk200</obj_property>
+      <obj_property name="ObjectShortName">hb_clk200</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/spectrum_top/sync_rst_vio">
+      <obj_property name="ElementShortName">sync_rst_vio</obj_property>
+      <obj_property name="ObjectShortName">sync_rst_vio</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/spectrum_top/sync_rst_rst">
+      <obj_property name="ElementShortName">sync_rst_rst</obj_property>
+      <obj_property name="ObjectShortName">sync_rst_rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/spectrum_top/C_SIM">
+      <obj_property name="ElementShortName">C_SIM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_SIM[31:0]</obj_property>
+   </wvobject>
+</wave_config>

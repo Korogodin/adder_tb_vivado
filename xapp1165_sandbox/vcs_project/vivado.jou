@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Wed Mar  2 17:35:48 2016
+# Process ID: 4550
+# Current directory: /media/Data/Work/adder_tb_vivado/xapp/vcs_project
+# Command line: vivado -mode batch -source git_project.tcl -notrace -tclargs -cmd vcs -ifn file_list.txt -out git_batch.bat
+# Log file: /media/Data/Work/adder_tb_vivado/xapp/vcs_project/vivado.log
+# Journal file: /media/Data/Work/adder_tb_vivado/xapp/vcs_project/vivado.jou
+#-----------------------------------------------------------
+source git_project.tcl -notrace

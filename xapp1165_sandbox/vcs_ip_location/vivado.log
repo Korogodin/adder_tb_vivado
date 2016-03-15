@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Wed Mar  2 15:53:14 2016
+# Process ID: 32611
+# Current directory: /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location
+# Command line: vivado -notrace -mode batch -source git_manage_ip.tcl
+# Log file: /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/vivado.log
+# Journal file: /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/vivado.jou
+#-----------------------------------------------------------
+source git_manage_ip.tcl -notrace
+/media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location
+INFO: Found IP dds_compiler_0/dds_compiler_0.xci
+INFO: Found IP fir_compiler_0/fir_compiler_0.xci
+INFO: Found IP ila_0/ila_0.xci
+INFO: Found IP vio_i256_o256/vio_i256_o256.xci
+INFO: Found IP xfft_0/xfft_0.xci
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2015.3/data/ip'.
+dds_compiler_0
+CRITICAL WARNING: [filemgmt 20-1366] Unable to reset target(s) for the following file is locked: /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/dds_compiler_0/dds_compiler_0.xci
+Locked reason: 
+* IP definition 'DDS Compiler (6.0)' for IP 'dds_compiler_0' has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+target sources_1
+/media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/dds_compiler_0/dds_compiler_0.xci /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/dds_compiler_0/dds_compiler_0.xml
+fir_compiler_0
+CRITICAL WARNING: [filemgmt 20-1366] Unable to reset target(s) for the following file is locked: /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/fir_compiler_0/fir_compiler_0.xci
+Locked reason: 
+* IP definition 'FIR Compiler (7.1)' for IP 'fir_compiler_0' has a newer minor version in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+value /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/coeffs/fir_p2_1db_s3_50db.coe
+target sources_1
+/media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/fir_compiler_0/fir_compiler_0.xci /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/coeffs/fir_p2_1db_s3_50db.coe /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/fir_compiler_0/fir_compiler_0.xml
+ila_0
+CRITICAL WARNING: [filemgmt 20-1366] Unable to reset target(s) for the following file is locked: /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/ila_0/ila_0.xci
+Locked reason: 
+* IP definition 'ILA (Integrated Logic Analyzer) (2.1)' for IP 'ila_0' has a newer major version in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+target sources_1
+/media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/ila_0/ila_0.xci /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/ila_0/ila_0.xml
+vio_i256_o256
+CRITICAL WARNING: [filemgmt 20-1366] Unable to reset target(s) for the following file is locked: /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/vio_i256_o256/vio_i256_o256.xci
+Locked reason: 
+* IP definition 'VIO (Virtual Input/Output) (2.0)' for IP 'vio_i256_o256' has a newer major version in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+target sources_1
+/media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/vio_i256_o256/vio_i256_o256.xci /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/vio_i256_o256/vio_i256_o256.xml
+xfft_0
+CRITICAL WARNING: [filemgmt 20-1366] Unable to reset target(s) for the following file is locked: /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/xfft_0/xfft_0.xci
+Locked reason: 
+* IP definition 'Fast Fourier Transform (9.0)' for IP 'xfft_0' has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+target sources_1
+/media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/xfft_0/xfft_0.xci /media/Data/Work/adder_tb_vivado/xapp/vcs_ip_location/xfft_0/xfft_0.xml
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  2 15:53:19 2016...

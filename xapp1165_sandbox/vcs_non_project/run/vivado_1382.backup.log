@@ -1,0 +1,99 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Mar  2 16:36:24 2016
+# Process ID: 1089
+# Log file: /media/Data/Work/adder_tb_vivado/xapp/vcs_non_project/run/vivado.log
+# Journal file: /media/Data/Work/adder_tb_vivado/xapp/vcs_non_project/run/vivado.jou
+#-----------------------------------------------------------
+source ../script/vivado_non_project.tcl -notrace
+    IfnOpt=../script/file_list.txt TopOpt=spectrum_top PartOpt=xc7z020clg484-1
+WARNING: Unsupported file extension .wcfg for ../debug/hw_ila_data_1.wcfg
+WARNING: Unsupported source type misc. ../debug/hw_ila_data_1.wcfg will be version controlled.
+WARNING: Unsupported file extension .txt for ../script/file_list.txt
+WARNING: Unsupported source type misc. ../script/file_list.txt will be version controlled.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2015.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'dds_compiler_0' is locked:
+* IP definition 'DDS Compiler (6.0)' for IP 'dds_compiler_0' has a different revision in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc7vx485tffg1157-1' used to customize the IP 'dds_compiler_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'fir_compiler_0' is locked:
+* IP definition 'FIR Compiler (7.1)' for IP 'fir_compiler_0' has a newer minor version in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc7vx485tffg1157-1' used to customize the IP 'fir_compiler_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'xfft_0' is locked:
+* IP definition 'Fast Fourier Transform (9.0)' for IP 'xfft_0' has a different revision in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc7vx485tffg1157-1' used to customize the IP 'xfft_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'vio_i256_o256' is locked:
+* IP definition 'VIO (Virtual Input/Output) (2.0)' for IP 'vio_i256_o256' has a newer major version in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc7vx485tffg1157-1' used to customize the IP 'vio_i256_o256' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'ila_0' is locked:
+* IP definition 'ILA (Integrated Logic Analyzer) (2.1)' for IP 'ila_0' has a newer major version in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc7vx485tffg1157-1' used to customize the IP 'ila_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+Command: synth_design -top spectrum_top -part xc7z020clg484-1
+Starting synth_design
+WARNING: [IP_Flow 19-2162] IP 'dds_compiler_0' is locked:
+* IP definition 'DDS Compiler (6.0)' for IP 'dds_compiler_0' has a different revision in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc7vx485tffg1157-1' used to customize the IP 'dds_compiler_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'fir_compiler_0' is locked:
+* IP definition 'FIR Compiler (7.1)' for IP 'fir_compiler_0' has a newer minor version in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc7vx485tffg1157-1' used to customize the IP 'fir_compiler_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'xfft_0' is locked:
+* IP definition 'Fast Fourier Transform (9.0)' for IP 'xfft_0' has a different revision in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc7vx485tffg1157-1' used to customize the IP 'xfft_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'vio_i256_o256' is locked:
+* IP definition 'VIO (Virtual Input/Output) (2.0)' for IP 'vio_i256_o256' has a newer major version in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc7vx485tffg1157-1' used to customize the IP 'vio_i256_o256' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'ila_0' is locked:
+* IP definition 'ILA (Integrated Logic Analyzer) (2.1)' for IP 'ila_0' has a newer major version in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc7vx485tffg1157-1' used to customize the IP 'ila_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-1223] The version limit for your license is '2016.02' and will expire in -2 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 964.629 ; gain = 158.887 ; free physical = 163 ; free virtual = 9759
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'spectrum_top' [/media/Data/Work/adder_tb_vivado/xapp/vcs_non_project/src/verilog/spectrum_top.v:44]
+	Parameter C_SIM bound to: 0 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_non_project/src/verilog/spectrum_top.v:59]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_non_project/src/verilog/spectrum_top.v:60]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_non_project/src/verilog/spectrum_top.v:61]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_non_project/src/verilog/spectrum_top.v:62]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_non_project/src/verilog/spectrum_top.v:65]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_non_project/src/verilog/spectrum_top.v:66]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_non_project/src/verilog/spectrum_top.v:73]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_non_project/src/verilog/spectrum_top.v:76]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [/media/Data/Work/adder_tb_vivado/xapp/vcs_non_project/src/verilog/spectrum_top.v:82]
+INFO: [Synth 8-638] synthesizing module 'IBUFDS' [/opt/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:10271]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUFDS' (1#1) [/opt/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:10271]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [/opt/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (2#1) [/opt/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:607]
+ERROR: [Synth 8-439] module 'dds_compiler_0' not found [/media/Data/Work/adder_tb_vivado/xapp/vcs_non_project/src/verilog/spectrum_top.v:97]
+ERROR: [Synth 8-285] failed synthesizing module 'spectrum_top' [/media/Data/Work/adder_tb_vivado/xapp/vcs_non_project/src/verilog/spectrum_top.v:44]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1000.910 ; gain = 195.168 ; free physical = 170 ; free virtual = 9726
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+20 Infos, 10 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  2 16:36:31 2016...

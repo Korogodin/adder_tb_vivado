@@ -1,0 +1,22 @@
+#Source file type can be explicitly set at the end of each line
+#Supported file types: verilog vhdl systemverilog ip constraint dsp script
+#If source file type is not set, the source file type will be determined
+#by the file extension
+#All unsupported file types will not be read into Vivado. They will be
+#put under version control.
+
+#../src/vhdl/123.vhd  vhdl
+../src/verilog/adder_top.v
+../src/constrs/adder_top_timing.xdc 
+../src/constrs/adder_top_physical.xdc
+../sim/add_tb.v
+../sim/add_tb_behav.wcfg
+
+#../../vcs_ip_location/dds_compiler_0/dds_compiler_0.xci
+#../../vcs_ip_location/fir_compiler_0/fir_compiler_0.xci
+
+../script/adder_prj.tcl
+../script/file_list.txt
+#../debug/hw_ila_data_1.wcfg
+
+
